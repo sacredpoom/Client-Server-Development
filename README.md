@@ -1,6 +1,19 @@
 # Client-Server-Development
-Coursework learning to develop full stack web application with MongoDB and Dash framework.
+Coursework learning to develop a full stack web application with MongoDB and Dash framework.
 
+![image](https://github.com/sacredpoom/Client-Server-Development/assets/20672168/6250f386-530c-4bd4-b68b-95bb32320d90)
+
+## About the Project:
+The aim of this project is to create a NoSQL database with a client-facing web application for use by the client Grazioso Salvare. The MVC design pattern is used for this project to create the web application. The database is created using MongoDB with a Python CRUD script for the Model component. Dashboard coded using Dash framework to implement interactive filters and visualizations such as geolocation and pie charts for the View and Controller components. 
+The client logo is displayed at the top of the dashboard, drop down filters below allows users to choose from three custom filtering queries and reset to default option. Geolocation and pie-chart components are interactive with dashboard filters. Tooltip set to display animal name in geolocation chart. 
+
+## Tools Used: 
+* Python 3.0.12 [https://www.python.org/downloads/ ]
+* MongoDB [https://www.mongodb.com/docs/manual/installation/]
+* PyMongo _$ python3 -m pip install pymongo_ [https://pymongo.readthedocs.io/en/stable/installation.html]
+* Jupyter Notebook [https://jupyter.org/install]
+* Dash [https://dash.plotly.com/installation] 
+* Pandas [https://pandas.pydata.org/] 
 
 How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
 Writing modular code that is documented with comments helps improve code-reusability in future projects. The Python CRUD module consists of small, single responsability functions increasing readability and reuse. Writing modular code like this helps with testing and debugging stages by reducing the time it takes to identify the section of code with an issue. 
